@@ -1,7 +1,8 @@
 <div id="header" class="navbar navbar-inverse navbar-fixed-top ">
 	<div class="container">
-		<a class="navbar-brand" href="#" alt="138 Sacket Logo"><img src="/img/logo-sackett.png"></a>
 		<a id="tab-138-sackett" class="navbar-brand pull-right" href="#" alt="138 Sacket address"><img src="/img/138-sackett.png"></a>
+		<a class="navbar-brand" href="/" alt="138 Sacket Logo"><img src="/img/logo-sackett.png"></a>
+		
 		<div class="clearfix"></div>
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header  pull-right">
@@ -18,13 +19,13 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">About</a></li>
-					<li><a href="#">Residences</a></li>
-					<li><a href="#">Passiv Standard</a></li>
-					<li><a href="#">Locale</a></li>
-					<li><a href="#">Floorplans</a></li>
-					<li><a href="#">Availability</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="/residences">Residences</a></li>
+					<li><a href="/passiv_standard">Passiv Standard</a></li>
+					<li><a href="/locale">Locale</a></li>
+					<li><a href="/floorplans">Floorplans</a></li>
+					<li><a href="/availability">Availability</a></li>
+					<li><a href="/contact_us">Contact</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div>

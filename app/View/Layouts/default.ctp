@@ -3,7 +3,7 @@
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php echo $title_for_layout; ?>
+		<?php echo $title_for_layout; ?> | 138 Sackett
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
@@ -27,7 +27,6 @@
 		<div id="contentx">
 			<div class="container">
 				<?php echo $this->Session->flash(); ?>
-sd
 				<?php echo $this->fetch('content'); ?>
 			</div>
 		</div>
