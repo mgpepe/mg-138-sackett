@@ -38,5 +38,6 @@
 	<?php echo $this->element('sql_dump'); ?>
 	<!-- Latest compiled and minified JavaScript. At end so page loads faster -->
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<?php echo $this->Html->script('menu-control'); ?>
 </body>
 </html>
