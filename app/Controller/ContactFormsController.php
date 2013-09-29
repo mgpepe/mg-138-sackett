@@ -58,6 +58,8 @@ class ContactFormsController extends AppController {
 			}
 		}
 		$this->set('hide_form', $hide_form);
+		$this->set('page', 'contact_us');
+		$this->set('title_for_layout', 'Contact Us');
 	}
 
 /**
