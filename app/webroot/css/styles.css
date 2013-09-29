@@ -55,9 +55,6 @@ h1 {
   color: #45545f;
   border-bottom: 3px solid #e5e4e5;
 }
-#header .navbar-nav > li > a:hover {
-  color: #8cc63e;
-}
 #header .navbar-nav > li > a.active {
   color: #8cc63e;
   border-bottom: 3px solid #8cc63e;
