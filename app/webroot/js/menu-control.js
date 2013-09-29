@@ -5,8 +5,8 @@ var menuControl=(function(){
 	var h1 = null;
 	return {
 		init:function(options){
-			$('.menued').on('mouseover', menuControl.handler);
-			$('.menued').on('mouseout', menuControl.out_handler);
+			// $('.menued').on('mouseover', menuControl.handler);
+			// $('.menued').on('mouseout', menuControl.out_handler);
 		},
 		handler:function(e){
 			var the_a = $(e.target);
