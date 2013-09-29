@@ -8,7 +8,7 @@
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('styles');
+		
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -17,6 +17,7 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<?php echo $this->Html->css('styles'); ?>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -25,10 +26,8 @@
 		<?php echo $this->element('navbar'); ?>
 		<!-- content -->
 		<div id="contentx">
-			<div class="container">
 				<?php echo $this->Session->flash(); ?>
 				<?php echo $this->fetch('content'); ?>
-			</div>
 		</div>
 		<!-- div id="footer">
 			<div class="container">

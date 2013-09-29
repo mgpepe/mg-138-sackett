@@ -23,7 +23,7 @@
 					<li><a href="/residences">Residences</a></li>
 					<li><a href="/passiv_standard">Passiv Standard</a></li>
 					<li><a href="/locale">Locale</a></li>
-					<li><a href="/floorplans">Floorplans</a></li>
+					<li><a href="/floorplans/1a">Floorplans</a></li>
 					<li><a href="/availability">Availability</a></li>
 					<li><a href="/contact_us">Contact</a></li>
 				</ul>
