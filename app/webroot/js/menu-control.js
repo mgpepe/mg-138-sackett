@@ -5,8 +5,19 @@ var menuControl=(function(){
 	var h1 = null;
 	return {
 		init:function(options){
-			// $('.menued').on('mouseover', menuControl.handler);
-			// $('.menued').on('mouseout', menuControl.out_handler);
+			$( window ).resize(function() {
+				menuControl.detect();
+			});
+			menuControl.detect();
+		},
+		detect:function(){
+			if( $('#js-detect-mobile-collapse').css('display') != 'block'){
+				$('.menued').on('mouseover', menuControl.handler);
+				$('.menued').on('mouseout', menuControl.out_handler);
+			}else{
+				$('.menued').off('mouseover', menuControl.handler);
+				$('.menued').off('mouseout', menuControl.out_handler);
+			}
 		},
 		handler:function(e){
 			var the_a = $(e.target);

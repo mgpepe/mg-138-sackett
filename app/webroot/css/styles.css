@@ -39,6 +39,14 @@ h1 {
   #header .navbar-nav {
     float: right;
   }
+  #header .navbar-nav a:hover {
+    color: #8cc63e;
+  }
+}
+@media (max-width: 767px) {
+  #header .navbar-nav a:hover {
+    color: #8cc63e;
+  }
 }
 #header .navbar-nav {
   font-family: "Futura_book";

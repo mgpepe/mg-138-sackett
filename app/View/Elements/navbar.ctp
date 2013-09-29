@@ -13,7 +13,8 @@
       <span class="icon-bar"></span>
     </button>
   </div>
-
+<!-- Dirty hack to detect mobile collapse and kill hover -->
+<div id="js-detect-mobile-collapse" class="visible-xs"></div>
 
 <div class="clearfix"></div>
   <!-- Collect the nav links, forms, and other content for toggling -->
