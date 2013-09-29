@@ -40,11 +40,6 @@ h1 {
     float: right;
   }
 }
-#header .navbar-default .navbar-nav > .active > a,
-#header .navbar-default .navbar-nav > .active > a:hover,
-#header .navbar-default .navbar-nav > .active > a:focus {
-  background: #fff;
-}
 #header .navbar-nav {
   font-family: "Futura_book";
   font-size: 16px;
