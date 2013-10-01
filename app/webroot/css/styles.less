@@ -42,12 +42,14 @@ h1{
 .close-x{
 	float:right;
 	font-size: 12px;
-	margin: 10px;
+	padding: 10px;
+	z-index: 100px;
 }
 
 // HEADER
 #header{
-
+	margin-bottom: 0;
+	border: 0;
 	@media (min-width: 768px) {
 		.navbar-nav {
 			float: right;
@@ -78,11 +80,11 @@ h1{
 		margin:0;
 	
 		color: @grayish-blue;
-		border-bottom: 3px solid @light-gray;
+		// border-bottom: 3px solid @light-gray;
 
 		&.active{
 			color: @green-link;
-			border-bottom: 3px solid @green-link;
+			// border-bottom: 3px solid @green-link;
 		}
 	}
 	.green-baro{
@@ -90,9 +92,17 @@ h1{
 		position: absolute;
 		background-color: @green-link;
 		height: 3px;
-		width: 20px;
 		bottom: -10px;
+		left: 10px;
+		right: 10px;
 	}
+	.active{
+		.green-baro{
+			display: block;
+			bottom:0;
+		}
+	}
+
 
 
 
@@ -157,6 +167,14 @@ h1{
 		font-size: 30px;
 		font-weight: bold;
 	}
+	.btn-sackett{
+		font-family: "Futura_lt_book";
+		color: #fff;
+		font-size: 35px;
+		background: none;
+		margin-top: -10px;
+		margin-right: -10px;
+	}
 }
 
 // PASSIVE
@@ -178,7 +196,6 @@ h1{
 		font-size: 11px;
 	}
 	table{
-		text-align: right;
 		border-top: 2px solid @grayish-blue;
 		margin-top: 20px;
 	}

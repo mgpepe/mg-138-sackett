@@ -21,12 +21,16 @@ var menuControl=(function(){
 		},
 		handler:function(e){
 			var the_a = $(e.target);
-			var width = $(e.target).width()+20;
+			var width = $(e.target).width();
+			var left = $(e.target).css('left');
+			console.log(left);
 			var bar = $(e.target).parent().find('.green-baro');
 			the_a.css('color','#8cc63e');
 			bar.css('width',width);
+			// bar.css('left',width);
 			bar.css('bottom',-10);
 			bar.css('display',"block");
+			bar.css('left',10);
 			bar.css('opacity',0);
 			bar.animate({
 				bottom: 0,

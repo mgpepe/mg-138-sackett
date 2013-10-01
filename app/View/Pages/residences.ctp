@@ -2,7 +2,7 @@
 <div class="container ">
 	<div class="sackett-caption pull-right ">View from roof top terrace at 138 Sackett.</div>
 </div>
-<div class="container navbar-fixed-bottom">
+<div class="container navbar-fixed-bottom" style="bottom:-200px;">
 	
 	<div class="sackett-white-sheet clearfix ">
 		<h1>COLUMBIA WATERFRONT DISTRICT</h1>
@@ -27,10 +27,15 @@
 
 <?php echo $this->Html->script('box-control'); ?>
 <?php echo $this->Html->script('text-control'); ?>
-<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/jquery.backstretch.js"></script>
 <script>
-	boxControl.init({start_up:true});
-	textControl.init();
+
+    $(document).on('ready',function(){
+        textControl.init();
+        boxControl.init({start_up:true});
+        
+        boxControl.expand();
+    });
 
 $.backstretch([
     "/img/images/1.jpg",

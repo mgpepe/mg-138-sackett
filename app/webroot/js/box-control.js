@@ -4,34 +4,43 @@ var boxControl=(function(){
 	var box = null;
 	var h1 = null;
 	return {
+		// Already in document/ready
 		init:function(options){
-			$(document).on('ready', function(){
-				$('.sackett-white-sheet').find('h1').on('click', boxControl.toggle);
-			})
+			console.log('inited()');
+			h1 = $('.sackett-white-sheet').find('h1');
+			h1.on('click', boxControl.toggle);
+			box = $('.sackett-white-sheet').parent();
+			close_x = $('.close-x');
 			if(typeof(options)!== 'undefined'){
 				if(typeof(options.start_up)!== 'undefined'){
 					next_click_should_shrink = options.start_up;
 				}
 			}
-			h1 = $('.sackett-white-sheet').find('h1');
-			box = $('.sackett-white-sheet').parent();
-			close_x = $('.close-x');
+
 		},
 		toggle:function(){
+			console.log('toggle()');
 			if(next_click_should_shrink){
 				boxControl.shrink();
 			}else{
 				boxControl.expand();
 			}
 		},
+
 		expand:function(){
+			console.log('expand');
 			next_click_should_shrink = true;
-			h1.animate({'font-size': '50px'});
-			box.animate({'bottom':0});
-			close_x.show('fast');
-			textControl.update_futures();
+			// h1.animate({'font-size': '50px'});
+			box.animate({'bottom':0},{step: function() {
+			        console.log( 'Currently @ ' + $(this).css('bottom') );
+			    }
+			}, 'linear', function(){ console.log("ended: "+$(this).css('bottom')); });
+			close_x.show('slow');
+			if(typeof(textControl)!='undefined')
+				textControl.update_futures();
 		},
 		shrink:function(){
+			console.log('shrink()');
 			next_click_should_shrink = false;
 			var box_height = box.height();
 			var bot =  -box.height()+45;

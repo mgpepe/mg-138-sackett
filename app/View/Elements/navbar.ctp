@@ -20,13 +20,13 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse navbar-ex1-collapse ">
     <ul class="nav navbar-nav ">
-		<li ><a class="menued <?php if ($page=='about') echo 'active'; ?>"  href="/about">About</a><div class="green-baro"></div></li>
-		<li ><a class="menued <?php if ($page=='residences') echo 'active'; ?>"  href="/residences">Residences</a><div class="green-baro"></div></li>
-		<li ><a class="menued <?php if ($page=='passiv_standard') echo 'active'; ?>"  href="/passiv_standard">Passiv Standard</a><div class="green-baro"></div></li>
-		<li ><a class="menued <?php if ($page=='locale') echo 'active'; ?>"  href="/locale">Locale</a><div class="green-baro"></div></li>
-		<li ><a class="menued <?php if ($page=='floorplans') echo 'active'; ?>"  href="/floorplans/1a">Floorplans</a><div class="green-baro"></div></li>
-		<li ><a class="menued <?php if ($page=='availability') echo 'active'; ?>"  href="/availability">Availability</a><div class="green-baro"></div></li>
-		<li ><a class="menued <?php if ($page=='contact_us') echo 'active'; ?>"  href="/contact_us">Contact</a><div class="green-baro"></div></li>
+		<li class="<?php if ($page=='home') echo 'active'; ?>"><a class="menued "  href="/">Home</a><div class="green-baro"></div></li>
+		<li class="<?php if ($page=='residences') echo 'active'; ?>"><a class="menued "  href="/residences">Residences</a><div class="green-baro"></div></li>
+		<li class="<?php if ($page=='passiv_standard') echo 'active'; ?>"><a class="menued "  href="/passiv_standard">Passiv Standard</a><div class="green-baro"></div></li>
+		<li class="<?php if ($page=='locale') echo 'active'; ?>"><a class="menued "  href="/locale">Locale</a><div class="green-baro"></div></li>
+		<li class="<?php if ($page=='floorplans') echo 'active'; ?>"><a class="menued "  href="/floorplans/1a">Floorplans</a><div class="green-baro"></div></li>
+		<li class="<?php if ($page=='availability') echo 'active'; ?>"><a class="menued "  href="/availability">Availability</a><div class="green-baro"></div></li>
+		<li class="<?php if ($page=='contact_us') echo 'active'; ?>"><a class="menued "  href="/contact_us">Contact</a><div class="green-baro"></div></li>
     </ul>
   </div><!-- /.navbar-collapse -->
 

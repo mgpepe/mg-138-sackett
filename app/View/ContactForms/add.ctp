@@ -51,7 +51,7 @@
 						<?php echo $this->Form->input('message', array('div'=>false, 'label'=>false, 'class'=>'form-control', 'placeholder'=>'Comments*')); ?>
 					</div>
 					<span class="pull-left">*Required fields</span>
-					<?php echo $this->Form->submit('Submit', array('div'=>false, 'label'=>false, 'class'=>'btn pull-right')); ?>
+					<?php echo $this->Form->submit('SUBMIT', array('div'=>false, 'label'=>false, 'class'=>'btn pull-right btn-sackett')); ?>
 				</div>
 				<?php echo $this->Form->end(); ?>
 			</div>

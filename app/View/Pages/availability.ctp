@@ -25,8 +25,8 @@
 					<td>1.5 BA</td>
 					<td>REC</td>
 					<td>FY</td>
-					<td>1,238 sq.ft</td>
-					<td>$1,085,000</td>
+					<td style="text-align:right">1,238 sq.ft</td>
+					<td style="text-align:right">$1,085,000</td>
 					<td>Unavailable</td>
 					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
@@ -36,8 +36,8 @@
 					<td>1.5 BA</td>
 					<td>REC</td>
 					<td>FY</td>
-					<td>1,167 sq.ft</td>
-					<td>$1,030,000</td>
+					<td style="text-align:right">1,167 sq.ft</td>
+					<td style="text-align:right">$1,030,000</td>
 					<td>Available</td>
 					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
@@ -47,8 +47,8 @@
 					<td>2.5 BA</td>
 					<td> </td>
 					<td> </td>
-					<td>1,962 sq.ft</td>
-					<td>$1,815,000</td>
+					<td style="text-align:right">1,962 sq.ft</td>
+					<td style="text-align:right">$1,815,000</td>
 					<td><b>Contract Signed</b></td>
 					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
@@ -58,8 +58,8 @@
 					<td>2 BA</td>
 					<td> </td>
 					<td> </td>
-					<td>996 sq.ft</td>
-					<td>$995,000</td>
+					<td style="text-align:right">996 sq.ft</td>
+					<td style="text-align:right">$995,000</td>
 					<td>Available</td>
 					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
@@ -69,8 +69,8 @@
 					<td>2 BA</td>
 					<td> </td>
 					<td> </td>
-					<td>996 sq.ft</td>
-					<td>$965,000</td>
+					<td style="text-align:right">996 sq.ft</td>
+					<td style="text-align:right">$965,000</td>
 					<td>Available</td>
 					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
@@ -80,8 +80,8 @@
 					<td>2 BA</td>
 					<td> </td>
 					<td>RT</td>
-					<td>1,330 sq.ft</td>
-					<td>$1,465,000</td>
+					<td style="text-align:right">1,330 sq.ft</td>
+					<td style="text-align:right">$1,465,000</td>
 					<td>Available</td>
 					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
@@ -91,8 +91,8 @@
 					<td>2 BA</td>
 					<td> </td>
 					<td>RT</td>
-					<td>1,062 sq.ft</td>
-					<td>$1,195,000</td>
+					<td style="text-align:right">1,062 sq.ft</td>
+					<td style="text-align:right">$1,195,000</td>
 					<td>Available</td>
 					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
@@ -102,8 +102,8 @@
 					<td> </td>
 					<td> </td>
 					<td> </td>
-					<td>Vary</td>
-					<td>Vary</td>
+					<td style="text-align:right">Vary</td>
+					<td style="text-align:right">Vary</td>
 					<td>Available</td>
 					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
@@ -113,8 +113,8 @@
 					<td> </td>
 					<td> </td>
 					<td> </td>
-					<td>Vary</td>
-					<td>Vary</td>
+					<td style="text-align:right">Vary</td>
+					<td style="text-align:right">Vary</td>
 					<td>Available</td>
 					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
