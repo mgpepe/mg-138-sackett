@@ -3,9 +3,12 @@ var textControl=(function(){
 	var update_in_future_to = null;
 	return {
 		init:function(){
-			document.addEventListener('image_swapped', function(e){
+			$(document).on("image_swapped", function(e){
 				textControl.swap(e.detail.image_index);
-			})
+			});
+			// document.addEventListener('image_swapped', function(e){
+			// 	textControl.swap(e.detail.image_index);
+			// })
 		},
 		swap:function(index){
 			switch (index){

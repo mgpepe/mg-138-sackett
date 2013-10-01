@@ -6,7 +6,6 @@ var boxControl=(function(){
 	return {
 		// Already in document/ready
 		init:function(options){
-			console.log('inited()');
 			h1 = $('.sackett-white-sheet').find('h1');
 			h1.on('click', boxControl.toggle);
 			box = $('.sackett-white-sheet').parent();
@@ -19,7 +18,6 @@ var boxControl=(function(){
 
 		},
 		toggle:function(){
-			console.log('toggle()');
 			if(next_click_should_shrink){
 				boxControl.shrink();
 			}else{
@@ -28,11 +26,9 @@ var boxControl=(function(){
 		},
 
 		expand:function(){
-			console.log('expand');
 			next_click_should_shrink = true;
 			// h1.animate({'font-size': '50px'});
 			box.animate({'bottom':0},{step: function() {
-			        console.log( 'Currently @ ' + $(this).css('bottom') );
 			    }
 			}, 'linear', function(){ console.log("ended: "+$(this).css('bottom')); });
 			close_x.show('slow');
@@ -40,7 +36,6 @@ var boxControl=(function(){
 				textControl.update_futures();
 		},
 		shrink:function(){
-			console.log('shrink()');
 			next_click_should_shrink = false;
 			var box_height = box.height();
 			var bot =  -box.height()+45;

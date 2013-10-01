@@ -23,7 +23,6 @@ var menuControl=(function(){
 			var the_a = $(e.target);
 			var width = $(e.target).width();
 			var left = $(e.target).css('left');
-			console.log(left);
 			var bar = $(e.target).parent().find('.green-baro');
 			the_a.css('color','#8cc63e');
 			bar.css('width',width);

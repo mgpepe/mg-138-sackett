@@ -54,9 +54,13 @@ $.backstretch([
 
 	var instance = $('body').data('backstretch');
 	$(window).on("backstretch.before", function (e, instance, index) {
-		var evt = new CustomEvent('image_swapped', { 
-			detail: { image_index: index }
-		});
-		document.dispatchEvent(evt);
+        $.event.trigger({
+            type: "image_swapped",
+            detail: { image_index: index }
+        });
+		// var evt = new EventX('image_swapped', { 
+		// 	detail: { image_index: index }
+		// });
+		// document.dispatchEvent(evt);
 	});
 </script>
