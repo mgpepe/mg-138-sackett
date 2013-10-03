@@ -28,7 +28,7 @@
 					<td style="text-align:right">1,238 sq.ft</td>
 					<td style="text-align:right">$1,085,000</td>
 					<td>Unavailable</td>
-					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
+					<td><a target="_blank" href="/files/floorplans/1A.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
 				<tr>
 					<td>1B</td>
@@ -39,7 +39,7 @@
 					<td style="text-align:right">1,167 sq.ft</td>
 					<td style="text-align:right">$1,030,000</td>
 					<td>Available</td>
-					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
+					<td><a target="_blank" href="/files/floorplans/1B.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
 				<tr>
 					<td>2</td>
@@ -50,7 +50,7 @@
 					<td style="text-align:right">1,962 sq.ft</td>
 					<td style="text-align:right">$1,815,000</td>
 					<td><b>Contract Signed</b></td>
-					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
+					<td><a target="_blank" href="/files/floorplans/2.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
 				<tr>
 					<td>3A</td>
@@ -61,7 +61,7 @@
 					<td style="text-align:right">996 sq.ft</td>
 					<td style="text-align:right">$995,000</td>
 					<td>Available</td>
-					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
+					<td><a target="_blank" href="/files/floorplans/3A.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
 				<tr>
 					<td>3B</td>
@@ -72,7 +72,7 @@
 					<td style="text-align:right">996 sq.ft</td>
 					<td style="text-align:right">$965,000</td>
 					<td>Available</td>
-					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
+					<td><a target="_blank" href="/files/floorplans/3B.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
 				<tr>
 					<td>4A</td>
@@ -83,7 +83,7 @@
 					<td style="text-align:right">1,330 sq.ft</td>
 					<td style="text-align:right">$1,465,000</td>
 					<td>Available</td>
-					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
+					<td><a target="_blank" href="/files/floorplans/4A.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
 				<tr class="before-storage-row">
 					<td>4B</td>
@@ -94,7 +94,7 @@
 					<td style="text-align:right">1,062 sq.ft</td>
 					<td style="text-align:right">$1,195,000</td>
 					<td>Available</td>
-					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
+					<td><a target="_blank" href="/files/floorplans/4B.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
 				<tr>
 					<td>SU</td>
@@ -105,7 +105,7 @@
 					<td style="text-align:right">Vary</td>
 					<td style="text-align:right">Vary</td>
 					<td>Available</td>
-					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
+					<td><a target="_blank" href="/files/floorplans/STORAGE.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
 				<tr>
 					<td>PR</td>
@@ -116,7 +116,7 @@
 					<td style="text-align:right">Vary</td>
 					<td style="text-align:right">Vary</td>
 					<td>Available</td>
-					<td><a href="asdfx"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
+					<td><a target="_blank" href="/files/floorplans/ROOF-CABANAS.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
 			</table>
 		</div>

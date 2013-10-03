@@ -1,4 +1,8 @@
-<div class="container" id="contact-page">
+
+<div class="container " >
+	<div class="sackett-caption pull-right ">Tree tops on Columbia Street.</div>
+	
+</div><div class="container" id="contact-page">
 	
 
 		<?php if (!$hide_form){ ?>
@@ -68,7 +72,7 @@
 
 
 <script src="js/jquery.backstretch.min.js"></script>
-<script> $.backstretch("/img/contact-image.jpg"); </script>
+<script> $.backstretch("/img/contact-image2.jpg"); </script>
 
 
 <div>

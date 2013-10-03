@@ -24,7 +24,7 @@
 		<li class="<?php if ($page=='residences') echo 'active'; ?>"><a class="menued "  href="/residences">Residences</a><div class="green-baro"></div></li>
 		<li class="<?php if ($page=='passiv_standard') echo 'active'; ?>"><a class="menued "  href="/passiv_standard">Passiv Standard</a><div class="green-baro"></div></li>
 		<li class="<?php if ($page=='locale') echo 'active'; ?>"><a class="menued "  href="/locale">Locale</a><div class="green-baro"></div></li>
-		<li class="<?php if ($page=='floorplans') echo 'active'; ?>"><a class="menued "  href="/floorplans/1a">Floorplans</a><div class="green-baro"></div></li>
+		<li class="<?php if ($page=='floorplans') echo 'active'; ?>"><a class="menued "  href="/floorplans/1b">Floorplans</a><div class="green-baro"></div></li>
 		<li class="<?php if ($page=='availability') echo 'active'; ?>"><a class="menued "  href="/availability">Availability</a><div class="green-baro"></div></li>
 		<li class="<?php if ($page=='contact_us') echo 'active'; ?>"><a class="menued "  href="/contact_us">Contact</a><div class="green-baro"></div></li>
     </ul>

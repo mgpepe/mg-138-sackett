@@ -105,12 +105,18 @@ h1 {
   top: 45%;
   z-index: -4;
 }
+#flechaIzq:active {
+  top: 46%;
+}
 #flechaDer {
   position: absolute;
   display: block;
   right: 0;
   top: 45%;
   z-index: -5;
+}
+#flechaDer:active {
+  top: 46%;
 }
 #contact-page {
   color: #fff;
@@ -161,6 +167,9 @@ h1 {
 .container-availability .before-storage-row {
   border-bottom: 2px solid #45545f;
 }
+.container-availability a:visited {
+  color: #838789;
+}
 #floorplans-page .nav-floorplans {
   font-size: 20px;
   font-family: "Futura_book";
@@ -171,6 +180,8 @@ h1 {
 }
 #floorplans-page .nav-floorplans a.unavailable {
   color: #838789;
+  cursor: default;
+  text-decoration: none;
 }
 #floorplans-page .nav-floorplans a.active {
   color: #8cc63e;

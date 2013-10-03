@@ -1,6 +1,43 @@
 	
 <div class="container ">
-	<div class="sackett-caption pull-right ">View from roof top terrace at 138 Sackett.</div>
+    <div id="tl-0" class="sackett-caption pull-right " style="display:block">
+        Corner of Henry Street &amp; Sackett Street.
+    </div>
+    <div id="tl-1" class="sackett-caption pull-right " style="display:none">
+        Corner of Henry Street &amp; Union Street.
+    </div>
+    <div id="tl-2" class="sackett-caption pull-right " style="display:none">
+        Farmacy and Soda Fountain. Corner of Henry Street &amp; Sackett Street.
+    </div>
+    <div id="tl-3" class="sackett-caption pull-right " style="display:none">
+        Corner of Sackett Street &amp; Columbia Street.
+    </div>
+    <div id="tl-4" class="sackett-caption pull-right " style="display:none">
+       Corner of Hicks Street &amp; Union Street.
+    </div>
+    <div id="tl-5" class="sackett-caption pull-right " style="display:none">
+        Corner of Tiffany Street &amp; Degraw Street.
+    </div>
+    <div id="tl-6" class="sackett-caption pull-right " style="display:none">
+        Corner of Sackett Street &amp; Columbia Street.
+    </div>
+    <div id="tl-7" class="sackett-caption pull-right " style="display:none">
+        Brooklyn Bridge Park.
+    </div>
+    <div id="tl-8" class="sackett-caption pull-right " style="display:none">
+        Brooklyn Bridge Park.
+    </div>
+    <div id="tl-9" class="sackett-caption pull-right " style="display:none">
+        Queen Mary at Brooklyn Cruise Terminal.
+    </div>
+    <div id="tl-10" class="sackett-caption pull-right " style="display:none">
+       	Brooklyn Piers.
+    </div>
+    <div id="tl-11" class="sackett-caption pull-right " style="display:none">
+        City view from the Degraw Street.
+    </div>
+
+
 </div>
 <div class="container navbar-fixed-bottom" style="bottom:-200px;">
 	
@@ -42,26 +79,52 @@
 
 <?php echo $this->Html->script('box-control'); ?>
 <?php echo $this->Html->script('text-control'); ?>
+<?php echo $this->Html->script('title-control'); ?>
 <script src="js/jquery.backstretch.js"></script>
 
 <script>
-	
-
-		$.backstretch([
-		    "/img/images/1.jpg",
-		    "/img/images/2.jpg",
-		    "/img/images/3.jpg",
-		    "/img/images/4.jpg",
-		    "/img/images/5.jpg",
-		    "/img/images/6.jpg",
-		    "/img/images/7.jpg",
-		    "/img/images/8.jpg",
-		    "/img/images/9.jpg",   
-		    "/img/images/10.jpg",   
-		    "/img/images/11.jpg", 
-		    "/img/images/12.jpg"   
-		  ], {duration: 5000, fade:500});
-
+	$.backstretch([
+	    "/img/images/1.jpg",
+	    "/img/images/2.jpg",
+	    "/img/images/3.jpg",
+	    "/img/images/4.jpg",
+	    "/img/images/5.jpg",
+	    "/img/images/6.jpg",
+	    "/img/images/7.jpg",
+	    "/img/images/8.jpg",
+	    "/img/images/9.jpg",   
+	    "/img/images/10.jpg",   
+	    "/img/images/11.jpg", 
+	    "/img/images/12.jpg"   
+	  ], {duration: 5000, fade:500});
+	var image_para = {
+		0:0,
+		1:1,
+		2:2,
+		3:2,
+		4:2,
+		5:3,
+		6:3,
+		7:3,
+		8:3,
+		9:3,
+		10:4,
+		11:4
+	};	
+	var title_para = {
+		0:0,
+		1:1,
+		2:2,
+		3:3,
+		4:4,
+		5:5,
+		6:6,
+		7:7,
+		8:8,
+		9:9,
+		10:10,
+		11:11
+	};
 	var instance = $('body').data('backstretch');
 	$(window).on("backstretch.before", function (e, instance, index) {
         $.event.trigger({
@@ -71,7 +134,8 @@
 	});
 	boxControl.init({start_up:false});
 	$(document).on('ready', function(){
-		textControl.init();
+		textControl.init(image_para);
+		titleControl.init(title_para);
 		boxControl.expand();
 	});
 </script>
