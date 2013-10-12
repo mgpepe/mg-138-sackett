@@ -1,5 +1,5 @@
 <div class="container ">
-    <div id="tl-0" class="sackett-caption pull-right " style="display:block">
+<!--     <div id="tl-0" class="sackett-caption pull-right " style="display:block">
         Building
     </div>
     <div id="tl-1" class="sackett-caption pull-right " style="display:none">
@@ -10,14 +10,14 @@
     </div>
     <div id="tl-3" class="sackett-caption pull-right " style="display:none">
         Baths
-    </div>
+    </div> -->
     
 
 </div>
 <div class="container navbar-fixed-bottom-sackett" style="bottom:-200px;">
 	
 	<div class="sackett-white-sheet clearfix ">
-		<h1 style="font-size: 18px; font-weight: bold;">Columbia Waterfront District</h1>
+		<h1 style="font-size: 18px; font-weight: bold;">Building And Interiors</h1>
         <p id="t-0" class="manageable-t" >
             Live at the strikingly beautiful 138 Sackett and your home will be set amidst the rugged beauty of the Columbia Waterfront District.
         </p>
@@ -95,7 +95,7 @@
     boxControl.init({start_up:false});
     $(document).on('ready',function(){
         textControl.init(image_para);
-        titleControl.init(title_para);
+        // titleControl.init(title_para);
         boxControl.expand();
     });
 </script>

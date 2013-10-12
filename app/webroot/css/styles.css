@@ -41,11 +41,6 @@ h1 {
     left: 0;
   }
 }
-@media (max-width: 767px) {
-  .close-x {
-    display: none;
-  }
-}
 #header {
   margin-bottom: 0;
   border: 0;
@@ -161,6 +156,10 @@ h1 {
   background: none;
   margin-top: -10px;
   margin-right: -10px;
+}
+#contact-page .put-dropshadow {
+  text-shadow: 2px 2px 2px #000000;
+  filter: dropshadow(color=#000000, offx=2, offy=2);
 }
 .grey-liner {
   min-height: 36px;

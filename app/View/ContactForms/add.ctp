@@ -11,7 +11,8 @@
 					<div class="contactForms form ">
 						<h1 class="in-contacts">Contact</h1>
 						<p class="contact-smaller">For more information and viewing appointments, contact:</p>
-						<p class="contact-bigger">(718) 614.5129<br/>info@138sackett.com</p>
+						<p class="contact-bigger">(718) 614 5129<br/>
+							<a href="mailto:info@138sackett.com" style="color:#FFF; text-decoration:underline;">info@138sackett.com</a></p>
 						<br/>
 						<p class="contact-smaller">Register for information and updates:</p>
 					</div>
@@ -55,7 +56,7 @@
 						<?php echo $this->Form->input('message', array('div'=>false, 'label'=>false, 'class'=>'form-control', 'placeholder'=>'Comments*')); ?>
 					</div>
 					<span class="pull-left">*Required fields</span>
-					<?php echo $this->Form->submit('SUBMIT', array('div'=>false, 'label'=>false, 'class'=>'btn pull-right btn-sackett')); ?>
+					<?php echo $this->Form->submit('SUBMIT', array('div'=>false, 'label'=>false, 'class'=>'btn pull-right btn-sackett put-dropshadow')); ?>
 				</div>
 				<?php echo $this->Form->end(); ?>
 			</div>
