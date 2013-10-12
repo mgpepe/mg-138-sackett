@@ -44,7 +44,14 @@ h1{
 	padding: 10px;
 	z-index: 100px;
 }
-
+@media (min-width:767px){
+	.navbar-fixed-bottom-sackett{
+		position: fixed;
+		bottom:0;
+		right:0;
+		left:0;
+	}
+}
 // HEADER
 #header{
 	margin-bottom: 0;
@@ -60,19 +67,24 @@ h1{
 		}
 	}
 	@media (max-width: 767px) { 
-	.navbar-nav {
+		.navbar-nav {
 			a{
 				&:hover{
 					color: @green-link;
 				}
 			}
 		}
+
 	 }
 	background-color: @light-gray;
 
 	.navbar-nav{
 		font-family: "Futura_book";
 		font-size: 16px;
+	}
+	.navbar-nav>li.active>a{
+		color: @green-link;
+
 	}
 	.navbar-nav>li>a{
 		padding: 3px 10px;
@@ -81,7 +93,7 @@ h1{
 		color: @grayish-blue;
 		// border-bottom: 3px solid @light-gray;
 
-		&.active{
+		&.active {
 			color: @green-link;
 			// border-bottom: 3px solid @green-link;
 		}
@@ -116,6 +128,8 @@ h1{
 	font-size: 14px;
 	color: #fff;
 	margin-top: 20px;
+	text-shadow: 1px 1px 2px #000000;
+        filter: dropshadow(color=#000000, offx=1, offy=1);
 }
 .sackett-white-sheet{
 	color: #45545f;
@@ -201,16 +215,22 @@ h1{
 		font-size: 11px;
 	}
 	table{
-		border-top: 2px solid @grayish-blue;
+		// border-top: 2px solid @grayish-blue;
 		margin-top: 20px;
 	}
 	.before-storage-row{
 		border-bottom: 2px solid @grayish-blue;
+		&.top td{
+			border-top:0;
+		}
 	}
 	a{
 		&:visited{
 			color: @dark-gray;
 		}
+	}
+	.pdf-unavailable{
+		display:none;
 	}
 }
 

@@ -24,7 +24,8 @@ var menuControl=(function(){
 			var width = $(e.target).width();
 			var left = $(e.target).css('left');
 			var bar = $(e.target).parent().find('.green-baro');
-			the_a.css('color','#8cc63e');
+			// the_a.css('color','#8cc63e');
+			the_a.addClass('active');
 			bar.css('width',width);
 			// bar.css('left',width);
 			bar.css('bottom',-10);
@@ -39,8 +40,12 @@ var menuControl=(function(){
 		out_handler:function(e){
 			var the_a = $(e.target);
 			var bar = $(e.target).parent().find('.green-baro');
-			the_a.css('color','#45545f');
-			bar.css('display', 'none');
+			// the_a.css('color','#45545f');
+			the_a.removeClass('active');
+			if(!the_a.parent().hasClass('active')){
+				bar.css('display', 'none');	
+			}
+			
 		}
 
 

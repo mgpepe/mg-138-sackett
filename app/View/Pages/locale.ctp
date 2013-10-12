@@ -42,7 +42,7 @@
 <div class="container navbar-fixed-bottom" style="bottom:-200px;">
 	
 	<div class="sackett-white-sheet clearfix ">
-		<h1>Quirky and Friendly CWD<span class="close-x">CLOSE X</span></h1>
+		<h1 style="font-size: 18px;">Quirky and Friendly CWD (Columbia Waterfront District)<span class="close-x">CLOSE X</span></h1>
 		<p id="t-0" class="manageable-t" >
 			For character and rugged urban beauty, there’s no other area in Brooklyn like the Columbia Waterfront District (CWD). It’s an oddity of a neighborhood, sitting side by side with an old industrial waterfront, and that only adds to its unique and quirky charm. The CWD is not just an interesting place to explore. It’s an interesting place to live. Community-minded and friendly local vendors all contribute to making it distinctive. While still evolving, there’s a mixture of light industry, wide-open spaces, an artsy atmosphere, and an exceptional array of culinary treats. 
 		</p>

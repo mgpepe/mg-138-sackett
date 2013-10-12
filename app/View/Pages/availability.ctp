@@ -19,6 +19,16 @@
 	<div class="row">
 		<div class="col-xs-12">
 			<table class="table table-striped table-hover">
+				<tr class="before-storage-row top" >
+					<td>Unit</td>
+					<td>Bedrooms</td>
+					<td>Baths</td>
+					<td colspan="2">Amenities</td>
+					<td style="text-align:right">Area</td>
+					<td style="text-align:right">Price</td>
+					<td>Status</td>
+					<td><a target="_blank" href="/files/floorplans/1A.pdf" class="pdf-unavailable"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
+				</tr>
 				<tr>
 					<td>1A</td>
 					<td>1 BD</td>
@@ -26,9 +36,9 @@
 					<td>REC</td>
 					<td>FY</td>
 					<td style="text-align:right">1,238 sq.ft</td>
-					<td style="text-align:right">$1,085,000</td>
+					<td style="text-align:right"></td>
 					<td>Unavailable</td>
-					<td><a target="_blank" href="/files/floorplans/1A.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
+					<td><a target="_blank" href="/files/floorplans/1A.pdf" class="pdf-unavailable"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
 				<tr>
 					<td>1B</td>
@@ -48,9 +58,9 @@
 					<td> </td>
 					<td> </td>
 					<td style="text-align:right">1,962 sq.ft</td>
-					<td style="text-align:right">$1,815,000</td>
+					<td style="text-align:right"></td>
 					<td><b>Contract Signed</b></td>
-					<td><a target="_blank" href="/files/floorplans/2.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
+					<td><a class="pdf-unavailable" target="_blank" href="/files/floorplans/2.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
 				<tr>
 					<td>3A</td>
@@ -59,9 +69,9 @@
 					<td> </td>
 					<td> </td>
 					<td style="text-align:right">996 sq.ft</td>
-					<td style="text-align:right">$995,000</td>
-					<td>Available</td>
-					<td><a target="_blank" href="/files/floorplans/3A.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
+					<td style="text-align:right"></td>
+					<td>Unavailable</td>
+					<td><a class="pdf-unavailable" target="_blank" href="/files/floorplans/3A.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
 				<tr>
 					<td>3B</td>
@@ -98,8 +108,7 @@
 				</tr>
 				<tr>
 					<td>SU</td>
-					<td>Storage Units</td>
-					<td> </td>
+					<td colspan="2">Storage Units</td>
 					<td> </td>
 					<td> </td>
 					<td style="text-align:right">Vary</td>
@@ -109,8 +118,7 @@
 				</tr>
 				<tr>
 					<td>PR</td>
-					<td>Rooftop Terraces</td>
-					<td> </td>
+					<td  colspan="2">Rooftop Terraces</td>
 					<td> </td>
 					<td> </td>
 					<td style="text-align:right">Vary</td>

@@ -33,6 +33,14 @@ h1 {
   padding: 10px;
   z-index: 100px;
 }
+@media (min-width: 767px) {
+  .navbar-fixed-bottom-sackett {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+}
 #header {
   margin-bottom: 0;
   border: 0;
@@ -54,6 +62,9 @@ h1 {
 #header .navbar-nav {
   font-family: "Futura_book";
   font-size: 16px;
+}
+#header .navbar-nav > li.active > a {
+  color: #8cc63e;
 }
 #header .navbar-nav > li > a {
   padding: 3px 10px;
@@ -84,6 +95,8 @@ h1 {
   font-size: 14px;
   color: #fff;
   margin-top: 20px;
+  text-shadow: 1px 1px 2px #000000;
+  filter: dropshadow(color=#000000, offx=1, offy=1);
 }
 .sackett-white-sheet {
   color: #45545f;
@@ -161,14 +174,19 @@ h1 {
   font-size: 11px;
 }
 .container-availability table {
-  border-top: 2px solid #45545f;
   margin-top: 20px;
 }
 .container-availability .before-storage-row {
   border-bottom: 2px solid #45545f;
 }
+.container-availability .before-storage-row.top td {
+  border-top: 0;
+}
 .container-availability a:visited {
   color: #838789;
+}
+.container-availability .pdf-unavailable {
+  display: none;
 }
 #floorplans-page .nav-floorplans {
   font-size: 20px;
