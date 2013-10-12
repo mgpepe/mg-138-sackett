@@ -11,7 +11,7 @@
 		
 
 		echo $this->fetch('meta');
-		echo $this->fetch('css');
+		echo $this->fetch('css?v=2');
 		echo $this->fetch('script');
 	?>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
