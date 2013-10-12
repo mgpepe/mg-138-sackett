@@ -39,7 +39,7 @@
 
 
 </div>
-<div class="container navbar-fixed-bottom" style="bottom:-200px;">
+<div class="container navbar-fixed-bottom-sackett" style="bottom:-200px;">
 	
 	<div class="sackett-white-sheet clearfix ">
 		<h1 style="font-size: 18px; font-weight: bold;">Quirky and Friendly CWD (Columbia Waterfront District)<span class="close-x">CLOSE X</span></h1>

@@ -2,7 +2,7 @@
 <div class="container " style="min-height: 500px;">
 	<div class="sackett-caption pull-right ">View from roof top terrace at 138 Sackett.</div>
 </div>
-<div class="container navbar-fixed-bottom" style="bottom: -200px;">
+<div class="container navbar-fixed-bottom-sackett" style="bottom: -200px;">
 	
 	<div class="sackett-white-sheet clearfix ">
 		<h1 style="font-size: 18px; font-weight: bold;">Where the Water Meets the Park<span class="close-x">CLOSE X</span></h1>
