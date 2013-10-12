@@ -1,5 +1,5 @@
 
-<div class="container " style="min-height: 500px;">
+<div class="container ">
 	<div class="sackett-caption pull-right ">View from roof top terrace at 138 Sackett.</div>
 </div>
 <div class="container navbar-fixed-bottom-sackett" style="bottom: -200px;">
