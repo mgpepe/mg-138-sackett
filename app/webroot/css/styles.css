@@ -40,11 +40,21 @@ h1 {
     right: 0;
     left: 0;
   }
+  #open-houses {
+    text-align: right;
+    position: absolute;
+    top: 40%;
+    right: 0;
+  }
 }
 @media (max-width: 767px) {
   .close-x {
     display: none;
   }
+}
+#open-houses {
+  text-align: center;
+  padding: 20px 0;
 }
 #header {
   margin-bottom: 0;
