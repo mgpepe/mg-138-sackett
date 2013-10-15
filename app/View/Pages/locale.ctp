@@ -34,7 +34,7 @@
        	Brooklyn Piers.
     </div>
     <div id="tl-11" class="sackett-caption pull-right " style="display:none">
-        City view from the Degraw Street.
+        City view from Degraw Street.
     </div>
 
 

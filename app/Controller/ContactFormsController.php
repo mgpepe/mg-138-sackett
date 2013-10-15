@@ -20,9 +20,10 @@ class ContactFormsController extends AppController {
  *
  * @return void
  */
-	public function index() {
+	public function showme() {
 		$this->ContactForm->recursive = 0;
 		$this->set('contactForms', $this->Paginator->paginate());
+		$this->set('page', '');
 	}
 
 /**

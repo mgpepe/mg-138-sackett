@@ -31,6 +31,7 @@
  * ...and connect the rest of 'Pages' controller's urls.
  */
 	Router::connect('/contact_us', array('controller' => 'contact_forms', 'action' => 'add'));
+	Router::connect('/showme', array('controller' => 'contact_forms', 'action' => 'showme'));
 	Router::connect('/*', array('controller' => 'pages', 'action' => 'display'));
 
 /**
