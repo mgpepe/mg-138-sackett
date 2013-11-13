@@ -47,7 +47,7 @@
 					<td>REC</td>
 					<td>FY</td>
 					<td style="text-align:right">1,167 sq.ft</td>
-					<td style="text-align:right">$1,030,000</td>
+					<td style="text-align:right">Call for information</td>
 					<td>Available</td>
 					<td><a target="_blank" href="/files/floorplans/1B.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
