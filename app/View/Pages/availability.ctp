@@ -80,7 +80,7 @@
 					<td> </td>
 					<td> </td>
 					<td style="text-align:right">996 sq.ft</td>
-					<td style="text-align:right">$965,000</td>
+					<td style="text-align:right">Call for information</td>
 					<td>Available</td>
 					<td><a target="_blank" href="/files/floorplans/3B.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
@@ -91,7 +91,7 @@
 					<td> </td>
 					<td>RT</td>
 					<td style="text-align:right">1,330 sq.ft</td>
-					<td style="text-align:right">$1,465,000</td>
+					<td style="text-align:right">Call for information</td>
 					<td>Available</td>
 					<td><a target="_blank" href="/files/floorplans/4A.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
@@ -102,7 +102,7 @@
 					<td> </td>
 					<td>RT</td>
 					<td style="text-align:right">1,062 sq.ft</td>
-					<td style="text-align:right">$1,195,000</td>
+					<td style="text-align:right">Call for information</td>
 					<td>Available</td>
 					<td><a target="_blank" href="/files/floorplans/4B.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
