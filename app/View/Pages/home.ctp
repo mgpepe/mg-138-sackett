@@ -2,7 +2,7 @@
 <div class="container ">
 	<div class="sackett-caption pull-right ">View from roof top terrace at 138 Sackett.</div>
 	<div id="open-houses">
-		<img src="/img/open-houses.png"/>
+		<img src="/img/open-houses-new2.png"/>
 	</div>
 </div>
 <div class="container navbar-fixed-bottom-sackett" style="bottom: -200px;">
