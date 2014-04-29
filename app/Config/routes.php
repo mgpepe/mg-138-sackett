@@ -32,6 +32,7 @@
  */
 	Router::connect('/contact_us', array('controller' => 'contact_forms', 'action' => 'add'));
 	Router::connect('/showme', array('controller' => 'contact_forms', 'action' => 'showme'));
+	Router::connect('/oh', array('controller' => 'openhouses', 'action' => 'index'));
 	Router::connect('/*', array('controller' => 'pages', 'action' => 'display'));
 
 /**

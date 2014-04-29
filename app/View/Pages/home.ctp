@@ -1,8 +1,16 @@
-
 <div class="container ">
 	<div class="sackett-caption pull-right ">View from roof top terrace at 138 Sackett.</div>
-	<div id="open-houses">
-		<img src="/img/open-houses-new2.png"/>
+	<div id="open-houses" style="height: 75px; overflow: hidden;">
+		<img src="/img/open-houses-new2.png" />
+	</div>
+	<div style="height: 160px; width: 395px;		text-align: right;
+		position: absolute;
+		top: 40%;
+		right:0;">
+		<div style="background: #cecece;margin-top: 77px; padding: 10px 20px ;font-size:28px; text-align: left;font-family: 'Futura_book';">
+			<?php echo nl2br($oh['Openhouse']['when']); ?>
+		</div>
+		
 	</div>
 </div>
 <div class="container navbar-fixed-bottom-sackett" style="bottom: -200px;">
