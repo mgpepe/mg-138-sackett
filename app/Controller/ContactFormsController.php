@@ -77,7 +77,7 @@ class ContactFormsController extends AppController {
 		if ($this->request->is(array('post', 'put'))) {
 			if ($this->ContactForm->save($this->request->data)) {
 				$this->Session->setFlash(__('The contact form has been saved.'));
-				return $this->redirect(array('action' => 'index'));
+				return $this->redirect(array('action' => 'showme'));
 			} else {
 				$this->Session->setFlash(__('The contact form could not be saved. Please, try again.'));
 			}
@@ -105,7 +105,7 @@ class ContactFormsController extends AppController {
 		} else {
 			$this->Session->setFlash(__('The contact form could not be deleted. Please, try again.'));
 		}
-		return $this->redirect(array('action' => 'index'));
+		return $this->redirect(array('action' => 'showme'));
 	}
 
 /**

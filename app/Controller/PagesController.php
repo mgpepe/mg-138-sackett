@@ -47,8 +47,7 @@ class PagesController extends AppController {
  *	or MissingViewException in debug mode.
  */
 	public function display() {
-		$oh = $this->Openhouse->findById(1);
-		$this->set('oh',$oh);
+
 		$path = func_get_args();
 
 		$count = count($path);

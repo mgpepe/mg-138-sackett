@@ -26,14 +26,25 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+	Router::connect('/', array('controller' => 'statics', 'action' => 'home'));
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */
 	Router::connect('/contact_us', array('controller' => 'contact_forms', 'action' => 'add'));
-	Router::connect('/showme', array('controller' => 'contact_forms', 'action' => 'showme'));
+	Router::connect('/showme/*', array('controller' => 'contact_forms', 'action' => 'showme'));
 	Router::connect('/oh', array('controller' => 'openhouses', 'action' => 'index'));
-	Router::connect('/*', array('controller' => 'pages', 'action' => 'display'));
+	Router::connect('/home', array('controller' => 'statics', 'action' => 'home'));
+	Router::connect('/residences', array('controller' => 'statics', 'action' => 'residences'));
+	Router::connect('/passiv_standard', array('controller' => 'statics', 'action' => 'passiv_standard'));
+	Router::connect('/locale', array('controller' => 'statics', 'action' => 'locale'));
+	Router::connect('/floorplans/*', array('controller' => 'statics', 'action' => 'floorplans'));
+	Router::connect('/availability', array('controller' => 'statics', 'action' => 'availability'));
+
+
+
+
+
+	Router::connect('/p/*', array('controller' => 'pages', 'action' => 'display'));
 
 /**
  * Load all plugin routes. See the CakePlugin documentation on
