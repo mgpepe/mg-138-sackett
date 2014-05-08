@@ -79,7 +79,7 @@
 					<td>2 BA</td>
 					<td> </td>
 					<td> </td>
-					<td style="text-align:right">996 sq.ft</td>
+					<td style="text-align:right">966 sq.ft</td>
 					<td style="text-align:right">Call for information</td>
 					<td>Available</td>
 					<td><a target="_blank" href="/files/floorplans/3B.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
@@ -91,9 +91,9 @@
 					<td> </td>
 					<td>RT</td>
 					<td style="text-align:right">1,330 sq.ft</td>
-					<td style="text-align:right">Call for information</td>
-					<td>Available</td>
-					<td><a target="_blank" href="/files/floorplans/4A.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
+					<td style="text-align:right"></td>
+					<td>Contract Signed</td>
+					<td><a class="pdf-unavailable" target="_blank" href="/files/floorplans/4A.pdf"> view / download PDF <span class="glyphicon glyphicon-download-alt"></span></a></td>
 				</tr>
 				<tr class="before-storage-row">
 					<td>4B</td>
