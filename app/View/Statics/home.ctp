@@ -1,7 +1,7 @@
 <div class="container ">
 	<div class="sackett-caption pull-right ">View from roof top terrace at 138 Sackett.</div>
-	<div id="open-houses" style="height: 75px; overflow: hidden;">
-		<img src="/img/open-houses-new2.png" />
+	<div id="open-houses" style="height: 75px; background: #80BD01; color: #FFF; font-size:28px; text-align: left;font-family: 'Futura_book';width: 395px;padding: 18px 20px ;">
+		Private Showing
 	</div>
 	<div style="height: 160px; width: 395px;		text-align: right;
 		position: absolute;
